@@ -135,7 +135,7 @@ function draw() {
   textAlign(CENTER);
   text("Milk Bottles Left: "+foodS, 150, 45);
   if(hor<=12){
-  text("Last Fed: "+ hours +": "+ min+ ": "+ sec + " AM", 820, 50 );
+  text("Last Fed: "+ hor +": "+ min+ ": "+ sec + " AM", 820, 50 );
   }
   else if(hor>=13){
   text("Last Fed: "+ hours +": "+ min+ ": "+ sec + " PM", 820, 50 );
